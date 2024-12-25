@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "imageprocessing-cell-image-segmentation"
+version = "0.1.0"
+description = ""
+authors = ["PetrFridrich <petr.fridrich.1998@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.1"
+pandas = "^2.2.3"
+matplotlib = "^3.10.0"
+mahotas = "^1.4.18"
+pillow = "^11.0.0"
+scipy = "^1.14.1"
+opencv-contrib-python = "^4.10.0.84"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
